@@ -48,16 +48,16 @@ function processWebhookData(data) {
     Agradecemos a preferência!`;
 
     return {
-        phone: "5574998155885",  // Número do destinatário
+        phone: "5595981216353",  // Número do destinatário
         message: message,
     };
 }
 
 // Função para enviar a mensagem via API do WhatsApp
 async function sendMessageToWhatsApp(messageData) {
-    const url = 'https://api.z-api.io/instances/3DE8F80B19E5907ED7BD0A1EFCACDE10/token/DEDA29BD6D779F6D2CD0984F/send-text';
+    const url = 'https://api.z-api.io/instances/3DE97A0F92A2607B9B2E4AF752FBD4C9/token/641846395793C0A44D66B39C/send-text';
     const headers = {
-        'Client-Token': 'F852bfa72dfaf4533b645e3ad6da475f2S',
+        'Client-Token': 'F23e1229e5b61433c9970c6e66b7e8692S',
     };
 
     try {
